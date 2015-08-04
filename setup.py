@@ -30,8 +30,11 @@ setup(
     author='Evan Gray',
     author_email='hello@evanscottgray.com',
     description='stream from papertrail into slack.',
+    long_description=open('README.rst').read(),
     install_requires=install_requires,
     packages=find_packages(),
+    classifiers=['Development Status :: 4 - Beta',
+                 'License :: OSI Approved :: Apache Software License'],
     license='Apache Software License',
     url='https://github.com/evanscottgray/paperslacktail',
     entry_points={
