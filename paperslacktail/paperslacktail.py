@@ -7,6 +7,7 @@ from subprocess import PIPE, Popen
 from threading import Thread
 from Queue import Queue, Empty
 
+app = {}
 ON_POSIX = 'posix' in sys.builtin_module_names
 
 
@@ -100,5 +101,4 @@ def main():
     slacktail(pt_args=pt_args)
 
 if __name__ == '__main__':
-    app = {}
     main()
