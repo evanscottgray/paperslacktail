@@ -63,9 +63,10 @@ simply provide the container a papertrail api token, a slack token, and a slack 
 
 links and things
 ~~~~~~~~~~~~~~~~
- - Dockerhub_
- - Github_
- - PyPI_
+
+- Dockerhub_
+- Github_
+- PyPI_
 
 .. _Dockerhub: https://registry.hub.docker.com/u/evanscottgray/paperslacktail/
 .. _Github: https://github.com/evanscottgray/paperslacktail
