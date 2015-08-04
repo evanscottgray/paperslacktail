@@ -42,7 +42,8 @@ usage
 install
 ~~~~~~~
 
-clone the repo and ``python setup.py install``
+to install from source, clone the repo and ``python setup.py install``, alternatively you can simply ``pip install paperslacktail``
+
 be sure to ``gem install papertrail`` so that you have the papertrail cli installed.
 
 deploy with docker
@@ -52,7 +53,6 @@ paperslacktail can quickly be deployed as a docker container that is ready to ro
 
 simply provide the container a papertrail api token, a slack token, and a slack channel id and you're up and running.
 
-see https://registry.hub.docker.com/u/evanscottgray/paperslacktail/
 
 ::
 
@@ -60,3 +60,13 @@ see https://registry.hub.docker.com/u/evanscottgray/paperslacktail/
            evanscottgray/paperslacktail --slack-token <slack-token> \
                                         --slack-channel <slack-channel-id> \
                                         '-g Production'
+
+links and things
+~~~~~~~~~~~~~~~~
+ - Dockerhub_
+ - Github_
+ - PyPI_
+
+.. _Dockerhub: https://registry.hub.docker.com/u/evanscottgray/paperslacktail/
+.. _Github: https://github.com/evanscottgray/paperslacktail
+.. _PyPI: https://pypi.python.org/pypi/paperslacktail

@@ -4,6 +4,7 @@
 #
 #   Github: https://github.com/evanscottgray/paperslacktail
 #   Dockerhub: https://registry.hub.docker.com/u/evanscottgray/paperslacktail/
+#   PyPI: https://pypi.python.org/pypi/paperslacktail
 #
 # DESCRIPTION
 #
@@ -28,7 +29,7 @@
 #                                            --slack-channel C03U0EX5E \
 #                                            '-g Production'
 #
-# VERSION    1.0.1
+# VERSION    1.0.2
 
 FROM ruby:2.2.0
 MAINTAINER Evan Gray <hello@evanscottgray.com>
