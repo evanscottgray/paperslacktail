@@ -26,9 +26,9 @@ if sys.version_info < (2, 7):
 
 setup(
     name='paperslacktail',
-    version='1.0.0',
+    version='1.0.1',
     author='Evan Gray',
-    author_email='evan@evanscottgray.com',
+    author_email='hello@evanscottgray.com',
     description='stream from papertrail into slack.',
     install_requires=install_requires,
     packages=find_packages(),
