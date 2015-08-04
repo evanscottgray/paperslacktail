@@ -31,6 +31,7 @@ setup(
     author_email='hello@evanscottgray.com',
     description='stream from papertrail into slack.',
     long_description=open('README.rst').read(),
+    keywords=['slack', 'papertrail'],
     install_requires=install_requires,
     packages=find_packages(),
     classifiers=['Development Status :: 4 - Beta',
