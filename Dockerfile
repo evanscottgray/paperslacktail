@@ -29,7 +29,7 @@
 #                                            --slack-channel C03U0EX5E \
 #                                            '-g Production'
 #
-# VERSION    1.0.2
+# VERSION    1.0.3
 
 FROM ruby:2.2.0
 MAINTAINER Evan Gray <hello@evanscottgray.com>

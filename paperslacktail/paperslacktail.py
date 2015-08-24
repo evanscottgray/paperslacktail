@@ -27,7 +27,8 @@ def parse_line(line):
 
 def extract_messages(pt_data):
     events = pt_data.get('events')
-    messages = [{'msg': e.get('message'), 'source_ip': e.get('source_ip')}
+    messages = [{'msg': e.get('message'), 'ip': e.get('source_ip'),
+                 'hostname': e.get('source_name')}
                 for e in events if e.get('message') is not None]
     return messages
 
@@ -39,7 +40,7 @@ def get_slack_client():
 
 
 def post_slack(data):
-    msg = 'HOST: |%s| MSG: |%s|' % (data.get('source_ip'), data.get('msg'))
+    msg = 'HOST: |%s| MSG: |%s|' % (data.get('hostname'), data.get('msg'))
     app['slack_client'].api_call("chat.postMessage",
                                  channel=app.get('SLACK_CHANNEL'),
                                  text=msg)
