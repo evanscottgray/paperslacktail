@@ -104,3 +104,4 @@ $RECYCLE.BIN/
 
 # darn venvs
 venv/
+Gemfile.lock

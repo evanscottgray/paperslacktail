@@ -1,3 +1,4 @@
 v1.0.0, 2015.08.03 -- Initial Release
 v1.0.1, 2015.08.04 -- Added docker stuff and readme updates
 v1.0.2, 2015.08.04 -- readme updates and pypi submission
+v1.0.3, 2015.08.24 -- update extracted hostname to actually use real hostname, and add Gemfile.lock to gitignore. 
